@@ -1,0 +1,58 @@
+/* src/pages/About.css */
+
+.about-container {
+    max-width: 1055px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4db5ff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: stretch; /* Ensures both image and text take equal height */
+    gap: 20px;
+  }
+  
+  .about-image {
+    width: 300px; /* Fixed width */
+    border-radius: 20px; /* Rounded edges for a softer look */
+    object-fit: cover; /* Ensures the image fills the element without distortion */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #d0d0d0;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column; /* Stacks image and text vertically on smaller screens */
+    }
+    .about-image {
+      width: 100%; /* Full width on smaller screens */
+      height: auto; /* Maintains aspect ratio */
+    }
+  }
+  

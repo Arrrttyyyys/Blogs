@@ -1,0 +1,38 @@
+/* src/pages/Post.css */
+
+.post-container {
+    max-width: 2000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background for post container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0;
+  }
+  
+  .post-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4db5ff; /* Light blue for the title */
+    margin-bottom: 10px;
+  }
+  
+  .post-date {
+    font-size: 1rem;
+    color: #a0a0a0; /* Gray for the date */
+    margin-bottom: 20px;
+  }
+  
+  .post-content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #d0d0d0; /* Off-white for content text */
+  }
+  
+  .post-not-found {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ff6b6b; /* Red color to indicate post not found */
+    margin-top: 50px;
+  }
+  
